@@ -1,0 +1,339 @@
+body {
+    vertical-align: middle;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+.general {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.width-limit {
+    max-width: 1400px;
+    margin: auto;
+}
+
+p {
+    text-transform: none;
+}
+
+
+/* Navbar */
+
+header {
+    width: 100%;
+    padding-top: 1%;
+    background-color: #EEEEE5;
+    position: fixed;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+a {
+    color: #666666;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+.logo {
+    color: black;
+    float: left;
+    text-align: start;
+    margin: 1% 15px 10px 0;
+}
+
+.logo:hover {
+    color: #555555;
+}
+
+.menu {
+    margin: 2% 0 10px 15px;
+    text-align: end;
+    float: right;
+}
+
+.menu-item {
+    margin-left: 0;
+    padding: 12px 20px;
+}
+
+.signup {
+    color: #EEEEE5;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.signup:hover {
+    color: black;
+    background-color: transparent;
+}
+
+
+/* Intro */
+
+#intro {
+    padding: 150px 5% 70px 5%;
+    min-height: 350px;
+    overflow: auto;
+}
+
+
+/* Intro Left */
+
+#intro-left {
+    padding: auto 10px;
+    width: 45%;
+    float: left;
+    text-align: center;
+}
+
+.intro-item {
+    padding: 10px;
+}
+
+h2.intro-item {
+    font-size: calc(1.325rem + .9vw);
+}
+
+h6.intro-item {
+    font-size: calc(1rem + .6vw);
+}
+
+
+/* Intro Right */
+
+#intro-right {
+    float: right;
+    width: 45%;
+    padding: auto 20px;
+}
+
+
+/* About */
+
+#about {
+    text-align: center;
+    background-color: #C0D8D8;
+    padding: 3%;
+    overflow: auto;
+}
+
+#about-text {
+    margin: 40px auto;
+}
+
+.about-card {
+    background-color: #C0D8D8;
+    width: 33.33%;
+    padding: 25px 3%;
+    float: left;
+    border: 0;
+}
+
+.about-card-item {
+    color: #555555;
+    background: white;
+    padding: 25px;
+    border: 3px solid #87B5B5;
+    border-radius: 15px;
+    min-height: 300px;
+}
+
+.about-card-title {
+    color: black;
+    height: 50px;
+}
+
+
+/* pricing */
+
+#pricing {
+    text-align: center;
+    padding: 3%;
+    overflow: auto;
+    background: white;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#pricing-text {
+    margin: 40px auto;
+}
+
+.pricing-card {
+    width: 50%;
+    min-height: 300px;
+    padding: 25px 3%;
+    float: left;
+    border: 0;
+}
+
+.pricing-card-item {
+    color: #555555;
+    background: #EEEEEE;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.pricing-card-title {
+    color: black;
+}
+
+.pricing-card-text {
+    min-height: 370px;
+    text-align: left;
+    text-transform: none;
+}
+
+.price {
+    text-align: center;
+    font-weight: bolder;
+    padding: 0;
+    margin: 0;
+}
+
+#price {
+    font-size: 50px;
+    padding-top: 50px;
+}
+
+#price2 {
+    font-size: 12px;
+    padding-bottom: 30px;
+}
+
+.pricing-button {
+    padding: 15px;
+}
+
+.signup-pricing {
+    padding: 15px;
+}
+
+
+/* Footer */
+
+footer {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.footer-item {
+    padding: 30px 20px 30px 20px;
+}
+
+#f-intro {
+    text-align: start;
+}
+
+#footer-right {
+    float: right;
+}
+
+
+/* Media */
+
+@media(max-width: 1550px) {
+    .about-card-item {
+        min-height: 350px;
+    }
+
+    .pricing-card-text{
+        min-height: 380px;
+    }
+}
+
+@media(max-width: 1200px) {
+    .about-card-item{
+        min-height: 400px;
+    }
+
+    .pricing-card-text {
+        min-height: 420px;
+    }
+}
+
+@media(max-width: 992px) {
+    .signup {
+        border: 1px solid black;
+        padding: 8px;
+    }
+
+    .about-card {
+        width: 100%;
+        float: none;
+        max-width: 500px;
+        margin: auto;
+    }
+
+    .about-card-title {
+        height: auto;
+    }
+
+    .about-card-item {
+        min-height: auto;
+    }
+
+    #pricing {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+}
+
+@media(max-width: 700px) {
+    #a-about, #a-pricing, #f-intro {
+        display: none;
+    }
+
+    .logo {
+        margin: 10px 0;
+        font-size: 10px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    .menu {
+        margin: 10px 0 10px 0;
+    }
+
+    .menu-item {
+        font-size: 0.9em;
+    }
+
+    #intro {
+        padding: 30px 5% 70px 5%;
+        min-height: none;
+    }
+
+    #intro-left {
+        width: 100%;
+    }
+
+    #intro-right {
+        margin-top: 50px;
+        width: 100%;
+        float: none;
+        max-width: none;
+    }
+
+    .pricing-card {
+        width: 100%;
+        float: none;
+        max-width: 500px;
+        margin: auto;
+    }
+
+    .pricing-card-text {
+        min-height: auto;
+    }
+
+    .footer-item {
+        padding: 30px 10px 30px 10px;
+    }
+}
