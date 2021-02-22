@@ -96,10 +96,12 @@ a:hover {
 }
 
 h2.intro-item {
+    font-weight: 600;
     font-size: calc(1.325rem + .9vw);
 }
 
 h6.intro-item {
+    font-weight: 300;
     font-size: calc(1rem + .6vw);
 }
 
