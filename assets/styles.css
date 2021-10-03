@@ -86,7 +86,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 100px 16px 200px;
+    padding: 200px 16px;
 }
 
 #intro-item-1 {
