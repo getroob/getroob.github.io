@@ -526,6 +526,10 @@ footer {
 
     /* Intro */
 
+    #intro {
+        padding: 100px 16px 150px;
+    }
+
     #intro-item-1 {
         text-align: center;
         font-weight: 600;
