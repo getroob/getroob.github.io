@@ -208,7 +208,7 @@ header {
 
 #product-one-img {
   position: relative;
-  border: 1px solid rgba(0, 0, 0, 0.15);
+  /* border: 1px solid rgba(0, 0, 0, 0.15); */
 }
 
 #product-one-text {
@@ -268,7 +268,7 @@ header {
   display: flex;
   justify-content: center;
   position: relative;
-  border: 1px solid rgba(0, 0, 0, 0.15);
+  /* border: 1px solid rgba(0, 0, 0, 0.15); */
 }
 
 #product-two-text {
@@ -349,7 +349,7 @@ header {
 
 #product-three-img {
   position: relative;
-  border: 1px solid rgba(0, 0, 0, 0.15);
+  /* border: 1px solid rgba(0, 0, 0, 0.15); */
 }
 
 #product-three-text {
